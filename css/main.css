@@ -92,7 +92,8 @@ div.work-block {
     justify-content: space-between;
 }
 
-div.work-block h4 {
+div.work-block h3 {
+    font-size: 1em;
     margin-bottom: 10px;
     margin-top: 0px;
     border-bottom: 1px solid gray;
