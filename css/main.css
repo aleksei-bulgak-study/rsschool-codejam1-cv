@@ -7,10 +7,19 @@ p {
     padding: 0 0;
     margin: 0 0;
     font-size: 1.2em;
+    text-indent: 15px;
 }
 
 li {
     font-size: 1.2em;
+}
+
+h2 {
+    border-bottom: 1px solid #938f8f;
+}
+
+h2.first {
+    margin-left: 280px;
 }
 
 header {
@@ -68,14 +77,29 @@ div.profile-info .title {
 }
 
 div.profile-info .profile-info-data {
-    padding-left: 20px;
+    padding-left: 320px;
     font-size: 1.2em;
 }
 
-div.profile-data p {
-    text-indent: 15px;
+div.work-block {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    justify-content: space-between;
 }
 
-div.block h4{
-    margin-bottom: 0%;
+div.work-block h4 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-bottom: 1px solid gray;
+}
+
+div.work {
+    display: inline-block;
+    width: 46%;
+}
+
+div.work p > strong {
+    margin-top: 5px;
+    margin-left: 15px;
 }
