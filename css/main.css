@@ -54,6 +54,10 @@ div.container {
     padding-right: 15px;
 }
 
+main div.container:last-child {
+    margin-bottom: 20px;
+}
+
 main {
     margin-top: 80px;
 }
