@@ -1,6 +1,6 @@
 body {
   margin: 0 0;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 p {
@@ -30,7 +30,13 @@ header {
   background-color: rgb(34, 34, 34);
 }
 
-div.header span {
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header span {
   font-size: 1.5em;
   color: rgb(182, 182, 182);
 }
@@ -43,6 +49,9 @@ div.social-networks {
 div.social-networks img {
   width: 30px;
   height: 30px;
+  display: inline-block;
+  font-size: 0;
+  border: 0;
 }
 
 div.container {
