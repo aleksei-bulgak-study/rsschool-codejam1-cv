@@ -1,0 +1,119 @@
+body {
+  margin: 0 0;
+  background-color: #ebebeb;
+}
+
+p {
+  padding: 0 0;
+  margin: 0 0;
+  font-size: 1.2em;
+  text-indent: 15px;
+}
+
+li {
+  font-size: 1.2em;
+}
+
+h2 {
+  border-bottom: 1px solid #938f8f;
+}
+
+h2.first {
+  margin-left: 280px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 12px 0px;
+  background-color: rgb(34, 34, 34);
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header span {
+  font-size: 1.5em;
+  color: rgb(182, 182, 182);
+}
+
+div.social-networks {
+  display: block;
+  float: right;
+}
+
+div.social-networks img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 0;
+  border: 0;
+}
+
+div.container {
+  max-width: 1024px;
+  min-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main div.container:last-child {
+  margin-bottom: 20px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+div.profile-info div.profile-photo-container {
+  width: 25%;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  float: left;
+  clear: right;
+}
+
+div.profile-info img.profile-photo {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+div.profile-info .title {
+  margin: 0px auto;
+}
+
+div.profile-info .profile-info-data {
+  padding-left: 320px;
+  font-size: 1.2em;
+}
+
+div.work-block {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  justify-content: space-between;
+}
+
+div.work-block h3 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border-bottom: 1px solid gray;
+}
+
+div.work {
+  display: inline-block;
+  width: 46%;
+}
+
+div.work p>strong {
+  margin-top: 5px;
+  margin-left: 15px;
+}
